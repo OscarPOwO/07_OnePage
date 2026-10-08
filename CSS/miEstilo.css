@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#zona1{
+    background-image: url('../images/base.jpg');
+}
+#base{
+    background-image: url('../images/inicio.jpg');
+}
+#ssj1{
+    background-image: url('../images/ssj1.jpg');
+}
+#ssj2{
+    background-image: url('../images/ssj2.jpg');
+}
+#ssj3{
+    background-image: url('../images/ssj3.jpg');
+}
+#ssjg{
+    background-image: url('../images/ssjg.jpg');
+}
+#ssjb{
+    background-image: url('../images/ssjb.jpg');
+}
+#ssjui{
+    background-image: url('../images/ssjui.jpg');
+}
+
+/*menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    display: block;
+    background-color: rgb(151, 22, 22);
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid red;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;
+}
+
+ul a:hover{
+    background-color: rgb(118, 50, 50);
+    color: white;
+    transform: translateX(10%);
+}
